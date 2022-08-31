@@ -1,0 +1,6 @@
+import:
+    - theme/dracula.yml
+
+
+font:
+  size: 18
