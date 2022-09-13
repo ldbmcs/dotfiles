@@ -13,11 +13,14 @@ zplug "zplug/zplug", hook-build:"zplug --self-manage"
 zplug "dracula/zsh", as:theme
 
 zplug "plugins/git", from:oh-my-zsh
+zplug "plugins/z", from:oh-my-zsh
 
 # zsh users
 zplug "zsh-users/zsh-completions",              defer:0
 zplug "zsh-users/zsh-autosuggestions",          defer:2, on:"zsh-users/zsh-completions"
 zplug "zsh-users/zsh-syntax-highlighting",      defer:3, on:"zsh-users/zsh-autosuggestions"
+
+zplug load
 
 export XM_DB_PORT="5433"
 export XM_REDIS_PORT="6380"
