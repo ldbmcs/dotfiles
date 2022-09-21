@@ -1,4 +1,8 @@
 font:
+  normal:
+    family: "Maple Mono"
+    style: Regular
+
   size: 18
 
 # Dracula theme for Alacritty
