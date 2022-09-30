@@ -1,4 +1,4 @@
-export LANG=en_US.UTF-8
+export LANG=en_US.UTF-7
 export LC_ALL=en_US.UTF-8
 
 # :: Zplug - ZSH plugin manager
@@ -22,8 +22,8 @@ zplug "zsh-users/zsh-syntax-highlighting",      defer:3, on:"zsh-users/zsh-autos
 
 zplug load
 
-export XM_DB_PORT="5433"
-export XM_REDIS_PORT="6380"
+export XM_DB_PORT=5433
+export XM_REDIS_PORT=6380
 
 alias banner="cd ~/Projects/banner-fe"
 alias gd="cd /Users/ldbmcs/Projects/goldendata"
@@ -32,6 +32,7 @@ alias websdk="cd /Users/ldbmcs/Projects/websdk"
 alias xform="cd /Users/ldbmcs/Projects/published-form"
 alias xm="cd /Users/ldbmcs/Projects/knowhowxm"
 alias xmfe="cd /Users/ldbmcs/Projects/knowhowxm-fe"
+alias greenx="cd /Users/ldbmcs/Projects/howxm-greenx"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
